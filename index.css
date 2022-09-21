@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&family=Work+Sans:wght@300&display=swap');
+.desc1 p{
+    font-weight: bold;
+    background-color: #333;
+    color: #fff;
+    padding: .5em;
+    
+}
+.desc1{
+    border-style: solid;
+    border-color: aqua;
+    margin: 50px ;
+    padding: 50px;
+}
+p{
+    font-family: Roboto ;
+}
+.desc2>p{
+    font-weight: bold;
+    background-color: red;
+    color: #fff;
+    padding: .5em;
+}
+table,tr,td{
+    border: 10px dashed green;
+}
+.item:hover{
+    background-color: lightcoral;
+}
+.drop{
+    display: none;
+}
+.dropdawn:hover .drop{
+    display: block;
+}
